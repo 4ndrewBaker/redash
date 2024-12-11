@@ -51,7 +51,7 @@ export default function UserInfoForm(props) {
           {
             name: "email",
             title: "Email",
-            type: "email",
+            type: "text",
             initialValue: user.email,
           },
           !user.isDisabled && currentUser.id !== user.id

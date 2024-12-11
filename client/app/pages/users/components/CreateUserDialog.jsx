@@ -9,7 +9,7 @@ import { useUniqueId } from "@/lib/hooks/useUniqueId";
 
 const formFields = [
   { required: true, name: "name", title: "Name", type: "text", autoFocus: true },
-  { required: true, name: "email", title: "Email", type: "email" },
+  { required: true, name: "email", title: "Email", type: "text" },
 ];
 
 function CreateUserDialog({ dialog }) {
